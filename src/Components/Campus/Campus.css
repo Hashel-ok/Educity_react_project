@@ -1,0 +1,67 @@
+.campus{
+
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.campus_imgs{
+
+  display: flex;
+justify-content: space-between;
+
+
+
+}
+.campus_imgs img{
+  width: 23%;
+  border-radius: 10px;
+}
+.campus_btn{
+  background-color: #212ea0 !important;
+  color: white !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 890px){
+
+
+  .campus{
+  
+    margin: 30px !important;
+  }
+
+
+}
+
+
+@media screen and (max-width: 725px){
+
+  .campus{
+  
+    margin: 0 !important;
+    margin-top: 30px !important;
+  }
+
+
+}
+
+@media screen and (max-width: 650px){
+
+  .campus_imgs{
+ 
+    gap: 30px;
+     flex-direction: column ;
+   
+  }
+  .campus_imgs img{
+    width: 100%;
+  }
+
+}
